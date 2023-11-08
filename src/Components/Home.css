@@ -169,7 +169,7 @@ ul {
 }
 
 .scroll{
-    height: 13vh;
+    height: 16vh;
     width: 12vw;
     margin-left: 59vh;
     margin-bottom: 15vh;
@@ -208,18 +208,19 @@ ul {
 
 .here{
     
-    color: #00e1ff;
+    color: #ffffff;
    
 }
 
 .blog-logo{
+    color: #11e3ff;
     margin-top: 10vh;
     padding-left: 45px;
     padding-top: 30px;
 }
 
 .blog-pic{
-    border: #98a6a8 solid 3.0px;
+    border: #0cc6df solid 3.0px;
     border-radius: 10px;
     margin: 40px;
     margin-left: 30%;
@@ -232,7 +233,7 @@ ul {
 }
 
 .blog-pic:hover{
-    border: #cbd9db solid 8px;
+    border: #32d7ec solid 8px;
        border-radius: 10px;
     margin: 40px;
     margin-left: 30%;
@@ -258,6 +259,7 @@ ul {
     width:7vw;
 }
 .projects-section{
+    margin-top: 15vh;
     border: #acabab solid 1px;
     height: 100vh;
     width: 96vw;
@@ -275,5 +277,137 @@ ul {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+
+.section-Contact{
+    margin-top: 10vh;
+    border: #acabab solid 1px;
+    height: 100vh;
+    width: 135.5vh;
+}
+
+.contact-logo{
+    padding-left: 43.5vw;
+    padding-top: 4vh;
+}
+
+
+
+
+.form-section{
+    color: #ffffff;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+border: #afafaf solid 7px;
+margin-left: 10vh;
+    height:  50vh;
+    width: 50vw;
+    background-color: #fafafa;
+}
+
+
+#name , #email{
+    background-color: #f5efef;
+    border: #070707 solid 50px;
+    padding: 8px;
+    width: 40vw;
+
+}
+
+.send-btn{
+margin-top: 10px;
+margin-left: 38%;
+    background-color: #5fc6f5;
+    border: #000000 solid 2px;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 7.6vh;
+    width: 10vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.send-btn:hover{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 38%;
+    background-color: #33b9f7;
+        border: #000000 solid 2px;
+        border-radius: 20px;
+        color: #ffffff;
+        height: 7.9vh;
+        width: 10.5vw;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+
+    .skills-section{
+        border: #acabab solid 1px;
+        height: 200vh;
+        width: 96vw;
+
+    }
+
+    .skils-logo{
+        padding-left: 43.5vw;
+        padding-top: 4vh;
+
+    }
+
+.skills-intro{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-bottom: 10vh;
+
+}
+
+.frontend-desc{
+    margin: 9vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.backend-desc{
+    margin: 9vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.DB-desc{
+    margin: 9vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.frontend-logo{
+    margin-top: 5vh;
+    padding: 15px;
+    margin-bottom: 5vh;
+    border: #999595 solid 2px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 50vh;
+}
+
+
+.backend-logo{
+    margin-top: 5vh;
+    padding: 20px;
+    margin-bottom: 5vh;
+    border: #999595 solid 2px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 50vh;
 }
 

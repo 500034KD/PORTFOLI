@@ -11,6 +11,8 @@ import R from "../Images/React-icon.svg - Copy.png";
 import N from "../Images/nodejs - Copy.webp";
 import blog from "../Images/blog.png";
 import arrow from "../Images/arrow.gif";
+import frontend from "../Images/FrontEnd-LOGO.png";
+import backend from "../Images/Backend-LOGO.png";
 
 export default function Home() {
   return (
@@ -48,7 +50,7 @@ export default function Home() {
         <img src={scroll} alt="" className="scroll" />
 
         <div className="section-about">
-          <h2 className="aboutme-logo">About Me</h2>
+          <h2 className="aboutme-logo">ABOUT ME</h2>
           <p className="p-intro">
             <i className="aboutme-intro">
               Hello! Myself Khalid Ahmed Khan, I'm a Full Stack MERN Developer
@@ -78,6 +80,64 @@ export default function Home() {
           <img src={arrow} alt="" className="arrow" />
           <img src={blog} alt="" className="blog-pic" />
         </div>
+
+        <div className="skills-section">
+          <h2 className="skils-logo">Skills</h2>
+          <div>
+            <p className="frontend-desc">
+              <h3 className="skills-intro">
+              Strong problem-solving abilities, with a keen focus on optimizing
+              web application performance and user experience. - Effective
+              communication and collaboration skills, fostering successful
+              teamwork in diverse development environments. - Commitment to
+              staying current with the latest web development trends, tools, and
+              best practices to deliver high-quality solutions. - Attention to
+              detail and a results-oriented mindset, ensuring the successful
+              completion of projects and objectives. Feel free to integrate
+              these skill sections into your resume, ensuring they align with
+              your specific experiences and expertise.
+              <br />
+              <br />
+                Certainly, let's divide the skills section paragraph into
+                front-end, back-end, and database skills, as well as
+                professional skills:
+              </h3>
+              <h2> Front-End Skills</h2>
+              <img src={frontend} alt="idguigegkbveruk" className="frontend-logo"/> 
+              Proficient in front-end development,
+              creating visually appealing and user-friendly interfaces using
+              HTML5, CSS3, and JavaScript. - Extensive experience in building
+              dynamic and responsive web applications with React and managing
+              state with Redux. - Strong command of responsive web design
+              principles, ensuring a consistent and engaging user experience
+              across various devices and screen sizes. - Mastery of modern
+              front-end development tools and libraries for enhanced user
+              interactivity and interface design.
+            </p>
+            <p className="backend-desc">
+              <h2>Back-End & DataBase Skills</h2>
+              <img src={backend} alt="" className="backend-logo"/>
+              Skilled in back-end development using
+              Node.js and Express.js to create robust server-side applications.
+              - Proficient in designing and implementing RESTful APIs, enabling
+              efficient communication between front-end and back-end components.
+              - Expertise in server-side data management, utilizing MongoDB for
+              scalable and efficient database solutions. - Competent in
+              leveraging authentication techniques like JWT for secure user
+              access and data protection. - Proficient with Node Package Manager
+              (NPM) for package management and dependency control.
+              <br />
+              <br />
+              Strong knowledge and hands-on experience in NoSQL database
+              management, particularly with MongoDB. - Ability to design
+              efficient and scalable database schemas to meet specific
+              application requirements. - Proficient in CRUD operations,
+              indexing, and query optimization to ensure optimal database
+              performance. - Understanding of database security and data
+              integrity best practices to safeguard sensitive information.
+            </p>
+          </div>
+        </div>
         <div className="projects-section">
           <h2 className="project-logo">PROJECTS</h2>
           <p className="projects-desc">
@@ -89,18 +149,14 @@ export default function Home() {
             how I've harnessed cutting-edge technologies to deliver practical
             solutions, streamline processes, and enhance user experiences. Each
             one is a testament to my commitment to excellence and innovation.
-            Feel free to dive in, ask questions, and discover the potential of
-            real-time technology.
           </p>
-          <img src={blog} alt="" className="blog-pic" />
-         
+      
         </div>
 
-        {/* <img src={github} alt="" className='github'/>
-        <img src={instagram} alt="" className='instagram'/>
-        <img src="" alt="" className='linkedin'/>
-        <img src="" alt="" className='youtube'/>
-        <img src="" alt="" className=''/> */}
+        <div className="section-Contact">
+          <h2 className="contact-logo">CONTACT</h2>
+      
+        </div>
       </div>
     </>
   );
